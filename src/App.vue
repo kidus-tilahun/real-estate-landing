@@ -5,7 +5,7 @@ import Footer from "./components/Footer.vue";
 
 <template>
   <div class="min-h-screen flex flex-col">
-    <header class="absolute top-0 left-0 w-full z-50">
+    <header class="absolute top-8 left-0 w-full z-50">
       <Navbar />
     </header>
 

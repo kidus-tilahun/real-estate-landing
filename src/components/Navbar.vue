@@ -4,7 +4,7 @@ import logo from "@/assets/logo.svg";
 
 <template>
   <div
-    class="mx-auto flex items-center justify-between max-w-7xl px-4 sm:px-6 lg:px-8 h-20 pt-12"
+    class="mx-auto flex items-center justify-between max-w-7xl px-4 sm:px-6 lg:px-8 h-20"
   >
     <div class="">
       <RouterLink to="/" aria-label="Home">
@@ -35,9 +35,13 @@ import logo from "@/assets/logo.svg";
     </nav>
 
     <div class="flex justify-center items-center gap-3">
-      <button class="bg-amber-500 px-5 py-2 rounded-2xl">Login</button>
       <button
-        class="px-5 py-2 rounded-2xl border-2 border-amber-600 text-white"
+        class="font-jakarta bg-amber-500 px-5 py-2 rounded-2xl hover:bg-amber-600/90 transition-colors duration-300 ease-in-out text-slate-900"
+      >
+        Login
+      </button>
+      <button
+        class="font-jakarta px-5 py-2 rounded-2xl border-2 border-amber-500 text-white hover:text-black hover:bg-amber-500 transition-colors ease-in-out duration-300"
       >
         Sign in
       </button>

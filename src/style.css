@@ -1,9 +1,16 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+}
 
 .nav-link:hover {
-  @apply bg-amber-600 transition-colors ease-in-out;
+  @apply bg-amber-600 transition-colors ease-in-out duration-300;
 }
 
 .nav-link {
-  @apply px-8 py-3 rounded-full text-white;
+  @apply font-inter tracking-wide font-medium text-base px-8 py-3 rounded-full text-white;
 }
