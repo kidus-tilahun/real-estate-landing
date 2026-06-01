@@ -40,7 +40,7 @@ import { House } from "lucide-vue-next";
     </button>
 
     <button
-      class="font-jakarta text-lg w-full whitespace-nowrap rounded-full bg-amber-600 px-6 py-3"
+      class="font-jakarta text-slate-900 text-lg w-full whitespace-nowrap rounded-full bg-amber-600 px-6 py-3"
     >
       Find Property
     </button>
