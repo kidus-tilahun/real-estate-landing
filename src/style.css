@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.nav-link:hover {
+  @apply bg-amber-600 transition-colors ease-in-out;
+}
+
+.nav-link {
+  @apply px-8 py-3 rounded-full text-white;
+}
