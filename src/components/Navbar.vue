@@ -36,12 +36,12 @@ import logo from "@/assets/logo.svg";
 
     <div class="flex justify-center items-center gap-3">
       <button
-        class="font-jakarta bg-amber-500 px-5 py-2 rounded-2xl hover:bg-amber-600/90 transition-colors duration-300 ease-in-out text-slate-900"
+        class="cursor-pointer font-jakarta border-amber-600 bg-amber-600 px-5 py-2 rounded-2xl hover:border-amber-600/90 hover:bg-amber-600/90 transition-colors duration-300 text-slate-100"
       >
         Login
       </button>
       <button
-        class="font-jakarta px-5 py-2 rounded-2xl border-2 border-amber-500 text-white hover:text-black hover:bg-amber-500 transition-colors ease-in-out duration-300"
+        class="cursor-pointer font-jakarta px-5 py-2 rounded-2xl border border-amber-600 text-white hover:border-black hover:bg-black transition-colors duration-300"
       >
         Sign in
       </button>
